@@ -1,0 +1,7 @@
+v=input('Digite algo:')
+print('Isso que você digitou tem a seguinte {}'.format(type(v)))
+print('É um número? {}'.format(v.isnumeric()))
+print('É uma letra?{}'.format(v.isalpha()))
+print('É alphanumerico?{}'.format(v.isalnum()))
+print('Estátudo maiúsculo?{}'.format(v.isupper()))
+print('Está tudo minúsculo?{}'.format(v.islower()))

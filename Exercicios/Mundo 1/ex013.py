@@ -1,0 +1,5 @@
+print('Calculador de aumento de sálario')
+s=float(input('Valor do sálario: R$'))
+a=float(input('Porcentagem que irá aumentar:'))
+r= s + (s * a / 100)
+print('O sálario R${}, com o acressimo de {}%, será ajustado em: R${}'.format(s, a, r))
