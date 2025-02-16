@@ -1,2 +1,2 @@
 # Curso_Python
- CURSO DO CURSO EM VIDEO DE PYTHON
+Repositório criador com o intutio de mostrar os exercícios do curso de Python, do Curso em vídeo
