@@ -1,0 +1,2 @@
+# Curso_Python
+ CURSO DO CURSO EM VIDEO DE PYTHON
