@@ -3,6 +3,6 @@ O MUNDO 1 tem o objetivo de inciar o aluno na liguagem, aprendendo a lógica bas
 
 Mostrando como usar:
 
-As IDLES.
-Operadores.
-As condicionais IF e Else.
+* As IDLES.
+* Operadores.
+* As condicionais IF e Else.
