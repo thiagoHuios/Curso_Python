@@ -9,7 +9,7 @@ while True:
 
 print(f"O número: {moedas.adaptação(num)}, tem:")
 print(f"Dobro: {moedas.dobro(num)}")
-print(f"Dobro: {moedas.metade(num)}")
+print(f"Metade: {moedas.metade(num)}")
 
 while True:
     try:
@@ -18,5 +18,5 @@ while True:
     except ValueError:
         print("Insirá um valor válido!")
 
-print(f"Dobro: {moedas.aumentar(num, op)}")
-print(f"Dobro: {moedas.dimunuir(num, op)}")
+print(f"Aumentado: {moedas.aumentar(num, op)}")
+print(f"Diminuido: {moedas.dimunuir(num, op)}")
