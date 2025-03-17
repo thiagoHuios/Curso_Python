@@ -1,6 +1,3 @@
-from asyncio.proactor_events import BaseProactorEventLoop
-
-
 def leiadinheiro(lista):
     resp = list()
     for l in lista:
@@ -16,24 +13,28 @@ def leiadinheiro(lista):
     return resp
 
 def leiaint(txt):
-    banana = True
-    while banana:
-        while
-            try:
-                n = int(input(txt))
-                break
-            except va
+    while True:
+        try:
+            n = int(input(txt))
+        except (ValueError, TypeError):
+            print("INsira um número inteiro válido!")
+        except KeyboardInterrupt:
+            print("Entrada de dados interompida pela usuário!")
+            return 0
+            continue
+        else:
+            return n
 
 def leiafloat(txt):
     while True:
         try:
             n = float(input(txt))
-            break
-        except ValueError or TypeError:
-            if "n" not in locals():
-                n = 0
-                break
-            print("O valor inserido precisas ser um número decimal ou inteiro!")
-    return n
-
+        except (ValueError, TypeError):
+            print("INsira um número inteiro válido!")
+        except KeyboardInterrupt:
+            print("Entrada de dados interompida pela usuário!")
+            return 0
+            continue
+        else:
+            return n
 
